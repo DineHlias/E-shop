@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+h3 {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#comments-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+#comments-table thead {
+    background-color: #333;
+    color: white;
+}
+
+#comments-table th, #comments-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#comments-table td {
+    background-color: #f9f9f9;
+}
+
+#comment-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#comment-form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#comment-form textarea {
+    width: calc(100% - 20px);
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+p[style="color:red;"], p[style="color:green;"] {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
